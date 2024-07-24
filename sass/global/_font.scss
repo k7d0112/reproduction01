@@ -1,0 +1,11 @@
+@use "sass:math";
+// 文字フォントの種類
+$base-font: "Roboto", "Noto Sans JP", sans-serif;
+$second-font: "Cormorant", "Noto Serif JP", serif;
+$third-font: "";
+
+// 文字の太さ
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;

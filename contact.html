@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta name="robots" content="noindex,nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <!-- meta情報 -->
+  <title>ExciteCode</title>
+  <meta name="description" content="ExciteCodeは、伝統あるテーラーだからできる、芯地や裏地など、細部へこだわります。わたしたちはワンランク上のオーダースーツをお約束します。">
+  <meta name="keywords" content="ExciteCode,オーダーメイドスーツ,ネクタイ">
+  <!-- ogp -->
+  <meta property="og:title" content="ExciteCode">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hogehoge.com">
+  <meta property="og:image" content="./images/FV.jpg">
+  <meta property="og:site_name" content="ExciteCode">
+  <meta property="og:description" content="ExciteCodeは、伝統あるテーラーだからできる、芯地や裏地など、細部へこだわります。わたしたちはワンランク上のオーダースーツをお約束します。">
+  <meta name="twitter:card" content="summary">
+  <!-- ファビコン -->
+  <link rel="icon" href="/images/favicon.ico">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" sizes="180x180">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/css/contact.css">
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+  <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header js-header">
+    <div class="header__inner">
+      <h1 class="header__logo">
+        <picture>
+          <source srcset="./images/logo-pc.png" media="(min-width=768px)">
+          <img src="./images/logo-sp.png" alt="ExciteCode" class="header__logo-image">
+        </picture>
+      </h1>
+      <nav class="header__nav md-none">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#about" class="header__link">About</a>
+          </li>
+          <li class="header__item">
+            <a href="#service" class="header__link">Service</a>
+          </li>
+          <li class="header__item">
+            <a href="#news" class="header__link">News</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="contact.php" class="header__button button md-none">Contact</a>
+    </div>
+
+    <!-- hamburger -->
+    <div class="hamburger js-hamburger md-show">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- drawer -->
+    <div class="drawer drawer__menu js-drawer">
+      <div class="drawer__inner">
+        <ul class="drawer__list">
+          <li class="drawer__item">
+            <img src="./images/logo-sp.png" alt="ロゴのマーク" class="drawer__logo">
+            <a href="#about" class="drawer__link">About</a>
+          </li>
+          <li class="drawer__item">
+            <img src="./images/title-logo.png" alt="ロゴのマーク" class="drawer__logo">
+            <a href="#service" class="drawer__link">Service</a>
+          </li>
+          <li class="drawer__item">
+            <img src="./images/title-logo.png" alt="ロゴのマーク" class="drawer__logo">
+            <a href="#news" class="drawer__link">News</a>
+          </li>
+          <li class="drawer__item">
+            <a href="contact.php" class="drawer__button button">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- FV -->
+    <div class="fv">
+      <div class="fv__inner">
+          <div class="fv__image">
+            <picture>
+              <source srcset="./images/contact-fv-pc.jpg" media="(min-width:900px)">
+              <img src="./images/contact-fv-sp.jpg" alt="マネキンが白いシャツとネクタイ、ベストを着ている画像">
+            </picture>
+          </div>
+        </div>
+        <p class="fv__main-title">Contact</p>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="contact">
+      <p class="contact__text">
+        当店へのお問い合わせは下記フォームより受け付けております。<br class="md-none">担当者が確認後、折り返しご連絡させていただきます。
+      </p>
+      <div class="contact__inner inner">
+        <div class="contact__form-box">
+          <form action="" class="contact__form form">
+            <ul class="form__list">
+              <li class="form__item">
+                <div class="form__label">
+                  <label for="name" class="form__label-text">お名前</label>
+                  <span class="form__required">&#9733;</span>
+                </div>
+                <input id="name" type="text" class="form__input" placeholder="仕立　一郎" required>
+              </li>
+              <li class="form__item">
+                <div class="form__label">
+                  <label for="email" class="form__label-text">メールアドレス</label>
+                  <span class="form__required">&#9733;</span>
+                </div>
+                <input id="email" type="email" class="form__input" placeholder="excitecode@suit.co.jp" required>
+              </li>
+              <li class="form__item form__radio">
+                <div class="form__label">
+                  <label class="form__label-text">お問い合わせの種類</label>
+                  <span class="form__required">&#9733;</span>
+                </div>
+                <div class="form__radio-area">
+                  <label for="radio1" class="form__radio-button">
+                    <input type="radio" name="お問い合わせの種類" id="radio1" class="form__input-radio" value="オーダーメイドスーツ">
+                    <span class="form__radio-text">オーダーメイドスーツ</span>
+                  </label>
+                  <label for="radio2" class="form__radio-button">
+                    <input type="radio" name="お問い合わせの種類" id="radio2" class="form__input-radio" value="スーツ以外のアイテム">
+                    <span class="form__radio-text">スーツ以外のアイテム</span>
+                  </label>
+                  <label for="radio3" class="form__radio-button">
+                    <input type="radio" name="お問い合わせの種類" id="radio3" class="form__input-radio" value="その他">
+                    <span class="form__radio-text">その他</span>
+                  </label>
+                </div>
+              </li>
+              <li class="form__item">
+                <div class="form__label">
+                  <label for="contents" class="form__label-text">お問い合わせ内容</label>
+                  <span class="form__required">&#9733;</span>
+                </div>
+                <textarea name="contents" id="contents" class="form__textarea" placeholder="入力してください" required></textarea>
+              </li>
+            </ul>
+            <button class="form__button" type="submit">送信</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <small class="footer__copyright">&#64;ExciteCode all rights reserved</small>
+  </footer>
+
+</body>
+
+</html>
